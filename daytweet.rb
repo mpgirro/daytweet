@@ -80,6 +80,10 @@ def tweet_msg(event)
         
         # if url makes tweet to long, try url shortening
         if url_msg.length > 140
+            
+            url_msg = msg # remove this after fix!
+            
+            """ SyntaxError on LINUX systems with ShortURL gem
             begin 
                 url_msg = msg + " • " + ShortURL.shorten(event.url, :tinyurl)
             rescue  # the url shortener broke. again...
@@ -89,6 +93,7 @@ def tweet_msg(event)
                     url_msg = msg # still too long
                 end
             end
+            """
         end
         
         msg = url_msg
