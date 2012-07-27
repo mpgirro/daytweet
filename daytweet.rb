@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# -*- encoding : utf-8 -*-
 
 require 'rubygems' 
 require 'icalendar'
@@ -95,7 +96,6 @@ def tweet_msg(event)
 
     return msg
 end
-
 
 
 # program entry point
