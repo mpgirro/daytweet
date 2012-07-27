@@ -5,7 +5,7 @@ require 'rubygems'
 require 'icalendar'
 require 'date'
 require 'twitter'
-require 'shorturl'
+#require 'shorturl'
 require 'parseconfig'
 
 
