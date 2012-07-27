@@ -2,8 +2,9 @@
 
 daytweet is a Twitter Bot that informs you of (maybe unofficial or fictional) observances/holidays and awareness days
 
-You definitely should [follow it on Twitter](http://twitter.com/daytweet)
-This programs repository may be found on [github](http://github.com/mpgirro/daytweet)
+You definitely should [follow it on Twitter](http://twitter.com/daytweet).
+
+This programs repository may be found on [github](http://github.com/mpgirro/daytweet).
 
 ## Database
 
@@ -19,7 +20,7 @@ Not every event has a URL provided. If the URL would extend the tweets over 140 
 There are a few Ruby Gems that needs to be installed before daytweet can be run. 
 
 The required gems are: twitter, shorturl, icalendar, parseconfig
-They may be installed with these commands
+They may be installed with these commands:
 
     sudo gem install icalendar
     sudo gem install twitter
@@ -36,5 +37,5 @@ daytweet expects those information in a configuration file called daytweet.conf.
 
     ./daytweet.rb
     
-This will post all todays events on Twitter. Therefore this program must be run once a day, every day. It should not take more than a moment. In order to do this automatically, it is recommended to use a [cronjob](http://en.wikipedia.org/wiki/Cron) or a [runwhen entry](http://code.dogmap.org/runwhen/)
+This will post all todays events on Twitter. Therefore this program must be run once a day, every day. It should not take more than a moment. In order to do this automatically, it is recommended to use a [cronjob](http://en.wikipedia.org/wiki/Cron) or a [runwhen entry](http://code.dogmap.org/runwhen/).
 
