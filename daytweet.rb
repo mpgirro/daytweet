@@ -85,7 +85,7 @@ def tweet_msg(event)
             
             """ SyntaxError on LINUX systems with ShortURL gem
             begin 
-                url_msg = msg + " • " + ShortURL.shorten(event.url, :tinyurl)
+                url_msg = msg + ' • ' + ShortURL.shorten(event.url, :tinyurl)
             rescue  # the url shortener broke. again...
                 url_msg = msg
             else # hey it worked
